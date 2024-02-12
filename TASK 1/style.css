@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  padding: 0;
+  margin: 0;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+}
+.c1 {
+  background-color: rgb(130, 255, 130);
+  height: 60px;
+}
+.c2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  height: 80%;
+}
+
+.c2 .p1 {
+  height: 100%;
+  width: 20%;
+  background-color: rgb(159, 255, 159);
+}
+.c2 .p2 {
+  background-color: white;
+  height: 100%;
+  width: 75%;
+}
+
+.c2 .p3 {
+  height: 100%;
+  width: 20%;
+  background-color: rgb(214, 255, 214);
+}
+
+.c3 {
+  background-color: rgb(110, 255, 110);
+  height: 60px;
+}
